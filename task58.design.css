@@ -1,0 +1,142 @@
+/* design.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: whitesmoke;
+}
+
+.content{
+    background-image: url("https://i.pinimg.com/564x/7f/da/e8/7fdae83507a0e18b86d23cfd7f495bda.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.8); /* Slightly transparent white background */
+    backdrop-filter: blur(5px); /* Optional: to add a blur effect */
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+    background: rgba(51, 51, 51, 0.8); /* Slightly transparent black background */
+}
+
+.navbar img.developer {
+    max-height: 100px;
+    max-width: 5500px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    color: lightseagreen;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.info {
+    text-align: justify;
+    padding: 10px;
+    flex: 1;
+}
+
+.info h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.info h1 span {
+    color: lightseagreen;
+}
+
+.info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.info h2 span {
+    color: lightseagreen;
+}
+
+.info h5 {
+    font-size: 1rem;
+    color: #666;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.info .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: lightseagreen;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.info .button:hover {
+    background: lightseagreen;
+}
+
+.mydp {
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+}
+
+.mydp img.image {
+    max-width: 250px;
+    max-height: 1500px;
+    height:300px;
+    width:3000px;
+    border: 1px solid lightseagreen;
+    shape-margin: 0;
+}
+
+.icons {
+    text-align: center;
+    padding: 20px;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+    font-size: 2rem;
+}
+
+.icons a:hover {
+    color: lightseagreen;
+}
